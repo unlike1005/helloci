@@ -72,8 +72,7 @@
 	<dependency>
    	    <groupId>com.sun</groupId>
    	    <artifactId>tools</artifactId>
-   	    <version>1.8</version>
-   	    <scope>system</scope>
+   	    <version>1.8.0</version>
  	</dependency>
     </dependencies>
 </project>
