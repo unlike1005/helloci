@@ -4,6 +4,7 @@ package com.github.vitalliuss.helloci;
 import static org.junit.Assert.*;
 import org.junit.Ignore;
 import org.junit.Test;
+import java.lang.Error;
 
 /**
  * Unit test for simple App.
@@ -16,7 +17,7 @@ public class AppTest {
 		assertTrue(true);
 	}
 
-	@Test
+	@Test(expected = Error.class)
 	public void testShouldBeFailed() {
 		assertTrue(false);
 	}
